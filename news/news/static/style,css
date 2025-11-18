@@ -1,0 +1,80 @@
+/* === Global Dark Theme === */
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* === Centered Container === */
+.container {
+    margin-top: 80px;
+    background-color: #161b22;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.15);
+    max-width: 700px;
+}
+
+/* === Headings === */
+h1, h2 {
+    text-align: center;
+    color: #f1c40f;
+    text-shadow: 0 0 10px #f1c40f;
+}
+
+/* === Input Field === */
+.form-control {
+    background-color: #21262d;
+    border: 1px solid #30363d;
+    color: #c9d1d9;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    background-color: #0d1117;
+    border-color: #f1c40f;
+    box-shadow: 0 0 10px #f1c40f;
+}
+
+/* === Button === */
+.btn {
+    background: linear-gradient(90deg, #f1c40f, #f39c12);
+    border: none;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(241, 196, 15, 0.5);
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #f39c12, #f1c40f);
+    box-shadow: 0 0 20px rgba(241, 196, 15, 0.8);
+}
+
+/* === Sentiment Result Card === */
+.card {
+    background-color: #161b22;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(241, 196, 15, 0.2);
+}
+
+.card h3 {
+    color: #f1c40f;
+    text-align: center;
+}
+
+/* === Footer === */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+    font-size: 0.9em;
+}
